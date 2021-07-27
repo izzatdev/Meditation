@@ -6,11 +6,13 @@ body{
     padding: 0;
     border: 1px solid red;
     font-family: sans-serif;
+    background-color: #DFF3F0;
 }
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #FFFFFF;
 }
 .logo{
     width: 7%;
@@ -57,7 +59,7 @@ body{
 }
 .section1{
     height: 1065px;
-    border: 1px solid blue;
+    border: 1px solid transparent;
     background-image: url("../images/BG vector.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -105,4 +107,70 @@ body{
     display: block;
     margin: 1rem auto 0;
 }
-
+.section2{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sec2-item{
+    width: 420px;
+    height: 535px;
+    margin: 0;
+    padding: 0;
+}
+.sec2-item:nth-child(1){
+    background-image: url("../images/sec2-item 1bg.svg") ;
+    background-size: cover;
+    background-position: center;
+}
+.sec2-item:nth-child(2){
+    background-image: url("../images/sec2-item 2bg.svg");
+    background-size: cover;
+    background-position: center;
+}
+.sec2-item:nth-child(3){
+    background-image: url("../images/sec2-item 3bg.svg");
+    background-size: cover;
+    background-position: center;
+}
+.sec2-item>img{
+    margin: 4rem auto 0;
+    display: block;
+    width: 20%;
+}
+.sec2-item>h3{
+    width: 155px;
+    height: 47px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 47px;
+    text-align: center;
+    margin: 1rem auto;
+}
+.sec2-item>p{
+    width: 65%;
+    height: 92px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    margin: 0 auto ;
+}
+.sec2-itemButton{
+    width: 200px;
+    height: 45px;
+    background: linear-gradient(180deg, #259385 0%, #159685 100%);
+    box-shadow: 0 13px 28px rgba(26, 127, 114, 0.2);
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FFFFFF;
+    margin: 1.5rem auto 0;
+    display: block;
+}

@@ -45,6 +45,14 @@
     .sec1Button{
         margin: 4rem auto;
     }
+    .section2{
+        height: auto;
+        flex-direction: column;
+    }
+    .sec2-item{
+        width: 54%;
+        margin: 1em auto;
+    }
 }
 
 
