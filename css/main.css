@@ -113,6 +113,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    border: 1px solid transparent;
 }
 .sec2-item{
     width: 420px;
