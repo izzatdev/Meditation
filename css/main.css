@@ -1,0 +1,108 @@
+body{
+    width: 100%;
+    height: 7514px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 7%;
+    margin:0.75rem 0 0 3rem;
+}
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar-links li{
+    list-style: none;
+}
+.navbar-links li a{
+    text-decoration: none;
+    width: 93px;
+    height: 41px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 41px;
+    color: #000000;
+    display: block;
+    padding: 2rem;
+}
+.navbar-links li a:focus{
+    color: #1A7F72;
+    border-bottom: 3px solid #1A7F72;
+}
+.toggle-button{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    width: 50px;
+    height: 40px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: black;
+}
+.section1{
+    height: 1065px;
+    border: 1px solid blue;
+    background-image: url("../images/BG vector.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.section1>h1{
+    width: 50%;
+    height: 176px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 68px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 2rem auto 0;
+}
+.section1>p{
+    width: 70%;
+    height: 62px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 1rem auto 0;
+    display: block;
+}
+.sec1Button{
+    background: linear-gradient(180deg, #259385 0%, #159685 100%);
+    box-shadow: 0 20px 40px rgba(21, 113, 101, 0.2);
+    border-radius: 50px;
+    width: 300px;
+    height: 75px;
+    text-align: center;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 130%;
+    margin: 2rem auto;
+    display: block;
+}
+.section1>img{
+    display: block;
+    margin: 1rem auto 0;
+}
+

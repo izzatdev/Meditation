@@ -1,0 +1,51 @@
+@media (min-device-width: 0)and (max-device-width:768px){
+    .toggle-button{
+        display: flex;
+        width: 7%;
+    }
+    .navbar-links{
+        display: none;
+        width: 100%;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-links ul{
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .navbar-links li{
+        text-align: center;
+        width: 100%;
+        padding: 0.01rem;
+
+    }
+    .navbar-links ul li a{
+        width: 100%;
+    }
+     .navbar-links.active{
+         display: flex;
+     }
+    .logo{
+        width: 10%;
+        margin:0.75rem 0 0 3rem;
+    }
+    .section1>p{
+        display: none;
+    }
+    .section1>h1{
+        width: 60%;
+        height: 150px;
+        font-size: 60px;
+        line-height: 100%;
+        margin: 2.5rem auto 0;
+    }
+    .sec1Button{
+        margin: 4rem auto;
+    }
+}
+
+
+
