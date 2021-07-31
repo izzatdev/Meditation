@@ -24,12 +24,14 @@
     }
     .navbar-links ul li a{
         width: 100%;
+        padding-right: 0;
+        padding-left: 0;
     }
      .navbar-links.active{
          display: flex;
      }
     .logo{
-        width: 10%;
+        width: 15%;
         margin:0.75rem 0 0 3rem;
     }
     .section1>p{
@@ -50,7 +52,7 @@
         flex-direction: column;
     }
     .sec2-item{
-        width: 54%;
+        width: 60%;
         margin: 1em auto;
     }
 }
