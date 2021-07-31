@@ -55,6 +55,18 @@
         width: 60%;
         margin: 1em auto;
     }
+    .section3>p{
+       display: none;
+    }
+    .section3Content{
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+
+    .section3{
+        height: auto;
+    }
+
 }
 
 

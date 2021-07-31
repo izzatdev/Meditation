@@ -180,6 +180,10 @@ body{
 .section3{
     width: 100%;
     height: 1075px;
+    background-image: url("../images/Bgsection3.svg")  ;
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
 .section3>h1{
     width: 50%;
@@ -189,7 +193,7 @@ body{
     font-size: 54px;
     line-height: 130%;
     text-align: center;
-    margin: 0 auto;
+    margin: 1em auto;
 }
 .section3>p{
     width: 1105px;
@@ -200,5 +204,43 @@ body{
     line-height: 130%;
     text-align: center;
     color: rgba(0, 0, 0, 0.5);
-    margin: 0 auto;
+    margin: 1em auto;
 }
+.section3Content{
+    width: 100%;
+    display: flex;align-items: center;
+    justify-content: center;
+    margin-top: 2em ;
+
+}
+.sec3item{
+    padding: 1rem;
+    margin-top: 1rem ;
+    position: relative;
+
+}
+.sec3item>a{
+    width: 40%;
+    height: 35px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 47px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+}
+.sec3item>p{
+    width: 619px;
+    height: 106px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.5;
+}
+
+
+
