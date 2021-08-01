@@ -66,6 +66,24 @@
     .section3{
         height: auto;
     }
+    .section3>h1{
+        height: 300px;
+    }
+    .section4Content{
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    .section4>p{
+       display: none;
+    }
+    .sec4conleft{
+        width: 100%;
+    }
+    .sec4item {
+        width: 65%;
+        margin: 1rem auto;
+    }
+
 
 }
 

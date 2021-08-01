@@ -185,7 +185,7 @@ body{
     background-position: right;
 
 }
-.section3>h1{
+.section3>h1, .section4>h1{
     width: 50%;
     height: 140px;
     font-style: normal;
@@ -193,9 +193,9 @@ body{
     font-size: 54px;
     line-height: 130%;
     text-align: center;
-    margin: 1em auto;
+    margin: 1rem auto ;
 }
-.section3>p{
+.section3>p, .section4>p{
     width: 1105px;
     height: 62px;
     font-style: normal;
@@ -239,7 +239,77 @@ body{
     line-height: 130%;
     display: flex;
     align-items: center;
-    color: rgba(0, 0, 0, 0.5;
+    color: rgba(0, 0, 0, 0.5);
+}
+.section4{
+    width: 100%;
+    margin-top: 0.5rem;
+    background-image: url("../images/bg section4.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.section4Content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sec4conleft{
+    width: 60%;
+}
+.sec4item{
+    width: 85%;
+    height: 150px;
+    background: linear-gradient(90deg, #C3E2DE 22.68%, #EDFBF9 71.06%);
+    box-shadow: -26px 4px 79px rgba(168, 207, 202, 0.39);
+    border-radius: 15px;
+    margin: 1rem 0 0 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec4itemleft{
+    width: 70%;
+    padding-left: 1rem;
+}
+.sec4itemright{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+.sec4itemright>a{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec4itemright>a>img{
+    height: 80px;
+    width: 80px;
+}
+.sec4itemleft>h2{
+    width: 308px;
+    height: 47px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 47px;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0;
+}
+.sec4itemleft>p{
+    width: 327px;
+    height: 31px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 130%;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0;
 }
 
 
